@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Server dashboard</title>
+
+    <style>
+        .card-body {
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body style="background-color: #f8f4f4;">
+
+    <!-- <head>
+        <div id="greeting" style="text-align: center; padding: 10%; background-color: #7014e8; color: white; font-size: 48px; width: 100%;"><strong>Server dashboard</strong></div>
+    </head> -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-sm-6" id="greeting" style="text-align: center; padding: 5%; background-color: #7014e8; color: white; font-size: 48px; width: 100%;;"><strong>Server dashboard</strong></div>
+        </div>
+        <div class="row">
+            <table class="table table-bordered table-hover table-dark">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Application</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-danger">
+                        <td>ASP.net</td>
+                        <td>128.75.146.65:25565</td>
+                        <td>Connection timeout</td>
+                        <td><a href="http://ranstar74.bizml.ru:25565/">СсылОчка</a></td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>MSSQL</td>
+                        <td>128.75.146.65:1433</td>
+                        <td>Success</td>
+                        <td></td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>ESP</td>
+                        <td>128.75.146.65:25565</td>
+                        <td>Connection timeout</td>
+                        <td></td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>File server</td>
+                        <td>128.75.146.65:25565</td>
+                        <td>Success</td>
+                        <td>
+                            <a href="http://ranstar74.bizml.ru/Files/">Link</a>
+                        </td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>Currency</td>
+                        <td>128.75.146.65:80</td>
+                        <td>Ok</td>
+                        <td>
+                            <a href="http://ranstar74.bizml.ru/Currency/">Currency</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- </div> -->
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3 style="text-align: center;">Our partners</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card-body">
+                    <img src="./images/apache-server.png" class="card-img-top" alt="...">
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/customers-stackoverflow.svg" class="" alt="...">
+
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/mssql-server.png" class="card-img-top" alt="...">
+
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/MySQL.svg" class="card-img" alt="...">
+
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/postgreSql.jpeg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="grid-container">
+        <div><img class="img-thumbnail " src="" alt=""></div>
+        <div><img class="img-thumbnail" src="" alt=""></div>
+        <div><img class="img-thumbnail" src="" alt=""></div>
+        <div><img class="img-thumbnail" src="" alt=""></div>
+        <div><img class="img-thumbnail" src="" alt=""></div>
+    </div> -->
+</body>
+
+</html>
