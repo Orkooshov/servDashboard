@@ -1,0 +1,75 @@
+td>.btn {
+    width: 50%;
+    min-width: 85px;
+}
+
+body {
+    background-color: #f8f4f4;
+}
+
+header>.container-fluid {
+    background: linear-gradient(to top right, #3700ff, #a686ff);
+    color: white;
+    min-width: 465px;
+    padding: 40px;
+}
+
+.thead-dark {
+    background-color: #212529;
+    color: whitesmoke;
+    border: 1px solid #212529;
+}
+
+#headerText {
+    font-size: 48px;
+}
+
+#loadingImage {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#serviceStatusesTable {
+    margin: auto;
+}
+
+#copyright {
+    margin-bottom: 10px;
+}
+
+
+/* .loader {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    align-tracks: inherit;
+    text-align: center;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    border-bottom: 16px solid #7014e8;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
